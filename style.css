@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+body{
+    background-color: black;
+}
+
+/* --- Main Header Section --- */
+
+header{
+    margin-top: 1.5rem;
+    /* border: 2px solid red; */
+    text-align: center;
+    margin-bottom: 2rem;
+}
+header h1{
+    font-size: 2.8rem;
+    color: white;
+}
+.underline{
+    width: 5rem;
+    color: white;
+    background-color: #49A6E9;
+    height: 0.3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* --- Editing main file --- */
+
+
+main{
+    width: 50%;
+    /* border: 2px solid red; */
+    background-color: white;
+    border-radius: 2rem;
+    box-shadow: 2px 2px 20px 2px rgba(255, 255, 255, 0.781);
+    margin: auto;
+}
+.image{
+    width: 23%;
+    margin: auto;
+    padding-top: 0.5rem;
+    /* border: 2px solid rebeccapurple; */
+}
+.name{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3rem;
+    /* font-style: italic; */
+    font-weight: bold;
+}
+.profession{
+    padding: 0.5rem 0rem;
+    font-size: 0.8rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #49A6E9;
+    font-weight: bold;
+
+}
+.info{
+    padding: 0.5rem 3rem;
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    color: #777;
+}
+.slide{
+    margin: 0.5rem 0rem;
+}
+.bi{
+    color: #49A6E9;
+    font-size: 1.5rem;
+    margin: 0rem 0.8rem;
+    cursor: pointer;
+    font-weight: 900;
+    outline: none;
+    overflow: hidden;
+}
+.random{
+    margin: 0.2rem 0rem;
+    margin-bottom: 1rem;
+    padding: 0.3rem 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    outline: none;
+    overflow: hidden;
+    cursor: pointer;
+    background-color:#b0dcfc ;
+    border: 2px solid #417aa3;
+    border-radius: 1.5rem;
+}
+
+
+
+/* --- Responsive Side --- */
+
+@media(max-width:1200px){
+    header{
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+    .info{
+        padding: 0.5rem 2rem;
+    }
+}
+
+@media(max-width:700px){
+    .info{
+        padding: 0.5rem 2rem;
+    }
+
+    main{
+        width: 70%;
+    }
+}
+
+@media(max-width:500px){
+    .info{
+        padding: 0.5rem 1rem;
+    }
+
+    main{
+        width: 90%;
+    }
+    header h1{
+        font-size: 2rem;
+        color: white;
+    }
+    .underline{
+        width: 3rem;
+    }
+}
